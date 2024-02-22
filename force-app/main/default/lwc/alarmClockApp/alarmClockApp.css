@@ -1,0 +1,83 @@
+:host(){
+    --size-30:30px;
+    --color-yellow:#f9f07a;
+    --color--blue:#243356;
+    --color-light-blue:#00D9F6;
+    --color-white:white;
+    --size-20:20px;
+    --size-16:16px;
+}
+
+
+.alarm-clock{
+    background-color: var(--color--blue);
+    max-width: 400px;
+    width: 100%;
+    border-radius: var(--size-16);
+    margin: 20px auto;
+    color: var(--color-white);
+    padding: var(--size-30);
+}
+h1{
+    color: var(--color-yellow);
+    font-size: var(--size-30);
+    font-weight: 500;
+    text-align: center;
+}
+img{
+    margin: 20px auto;
+    display: block;
+}
+h2{
+    color: var(--color-light-blue);
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+button{
+    color: #090a37;
+    padding: var(--size-16);
+    border-color: var(--color--blue);
+    background-color: var(--color-yellow);
+    margin-top: 12px;
+    font-size: var(--size-20);
+
+}
+
+option{
+    color: var(--color-white);
+    background-color: var(--color--blue);
+}
+.custom-select{
+    color: var(--color--blue);
+    font-weight: 500;
+}
+label{
+    color: var(--color-light-blue);
+    font-weight: bold;
+}
+
+
+img.shake {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }

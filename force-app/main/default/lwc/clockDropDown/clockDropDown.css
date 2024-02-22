@@ -1,0 +1,19 @@
+:host(){
+    --size-30:30px;
+    --color-yellow:#f9f07a;
+    --color--blue:#243356;
+    --color-light-blue:#00D9F6;
+    --color-white:white;
+}
+option{
+    color: var(--color-white);
+    background-color: var(--color--blue);
+}
+.custom-select{
+    color: var(--color--blue);
+    font-weight: 500;
+}
+label{
+    color: var(--color-light-blue);
+    font-weight: bold;
+}
